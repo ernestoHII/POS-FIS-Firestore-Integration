@@ -24,7 +24,7 @@ class Program
         // Creates a Firestore database instance for a specific Firebase project
         firestoreDb = FirestoreDb.Create("hii-pos-330e9"); // Replace with your Firebase project ID
         // A list of document IDs to listen for changes
-        List<string> documentIds = new List<string> { "BranchID-19" }; // Replace with your document IDs
+        List<string> documentIds = new List<string> { "BranchID-19-FIS" }; // Replace with your document IDs
         // Sets up listeners for each document in the list
         foreach (var docId in documentIds)
         {
